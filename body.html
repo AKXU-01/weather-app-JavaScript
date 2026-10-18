@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="searchBar">
+            <input type="text" placeholder="Enter Your City Name" id="">
+            <!-- <label for=""></label> -->
+            <button class="search-btn"><span class="icon"></span></button>
+
+        </div>
+
+        <div class="weather">
+            <img  src="sun.svg" alt="Sunny">
+            <h1 id="temp">00<span>°C</span></h1>
+            <h2 id="city">_ _ _ _ _</h2>
+        </div>
+
+        <div class="otherinfo">
+            <div class="humidity">
+                <img src="humidity.svg" alt="">
+                <div class="humidityData">
+                    <h2 id="humidity">00<span>%</span></h2>
+                    <h2>HUMIDITY</h2>
+                </div>
+            </div>
+
+            <div class="windspeed">
+                <img src="wind.svg" alt="">
+                <div class="windData">
+                    <h2 id="windSpeed">00<span>Km/h</span></h2>
+                    <h2>WIND-SPEED</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
